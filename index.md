@@ -29,20 +29,16 @@ Welcome to the official speaker lineup for **Conference 2025**, where industry l
 
 ##  Featured Speakers  
 
-- **Sarah Lee** — *Cybersecurity Trends 2025* | CEO at SecureNow  
-- **Mike Chan** — *Blockchain Beyond Crypto* | Co-founder at ChainSphere  
-- **Emily Rivera** — *UX Design for the Next Decade* | Head of Design at FlowStudio  
+- **Brian Cresswell** — Managing director at Lotek UK Ltd.
+- **Federico Galvanin** — Professor of Chemical Engineering at University College London
+- **Handel Sandoval** — 
+- **Clarissa Busch** — 
+- **Marco Quaglio** — 
+
 
 ---
 
-## 🗓️ Schedule at a Glance  
-
-| 10:00 AM       | Opening Keynote       | Dr. Jane Smith |
-| 11:30 AM       | Panel: Future of Tech| John Doe & Panel |
-| 2:00 PM        | Breakout: Cybersecurity Trends | Sarah Lee |
-| 4:00 PM        | Workshop: UX for the Future | Emily Rivera |
-
-
+## Schedule at a Glance  
 ### Speakers list - 13th  [In-person/hybrid]
 
 | Speaker                                                                        | Time        |
@@ -68,6 +64,7 @@ Welcome to the official speaker lineup for **Conference 2025**, where industry l
 |Networking session                                                              |17:00 - ??   |
 
 ### Speakers list - 14th [Online]
+
 | Speaker                                                                        | Time        |
 |--------------------------------------------------------------------------------|-------------|
 |Monterrey - Keynotes                                                            |13:00 - 13:15| 
