@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #001f3f; /* Dark Blue */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+.container {
+  width: 85%;
+  min-height: 100vh;
+  background-color: #87CEEB; /* Light Blue */
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: #003366;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

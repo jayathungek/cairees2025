@@ -1,5 +1,8 @@
 # CAIREES 2025: Speaker Lineup  
 
+<link rel="stylesheet" href="style.css">
+
+<div class="container">
 Welcome to the official speaker lineup for **Conference 2025**, where academics, industry leaders and students share insights, trends, and innovations.  
 
  **Date:** March 13-14, 2025  
@@ -78,3 +81,4 @@ Welcome to the official speaker lineup for **Conference 2025**, where academics,
 ## Contact  
 For inquiries, contact [Kavi](mailto:kjayathunge@bournemouth.ac.uk) or [Alex](msandoval2@bournemouth.ac.uk)  
 ---
+</div>
