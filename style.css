@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 70%;
   min-height: 100vh;
   background-color: #87CEEB; /* Light Blue */
   padding: 2rem;
