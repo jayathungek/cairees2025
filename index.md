@@ -1,29 +1,21 @@
----
-title: "CAIREES 2025"
----
+# CAIREES 2025: Speaker Lineup  
 
-# Conference 2025: Speaker Lineup  
+Welcome to the official speaker lineup for **Conference 2025**, where academics, industry leaders and students share insights, trends, and innovations.  
 
-Welcome to the official speaker lineup for **Conference 2025**, where industry leaders share insights, trends, and innovations.  
-
- **Date:** March 10-12, 2025  
+ **Date:** March 13-14, 2025  
  **Location:** San Francisco, CA  
 
 ---
 
 ##  Keynote Speakers  
 
-###  Dr. Jane Smith  
-**Topic:** The Future of Artificial Intelligence  
-- Position: Chief Scientist at AI Labs  
-- Bio: A pioneer in machine learning and author of *AI for Good*.  
-- [Learn More](https://janesmith.com)  
+### Prof. Xiaosong Yang  
+- Position:   
+- [Learn More]()  
 
-###  John Doe  
-**Topic:** Building Inclusive Tech Communities  
-- Position: CTO at OpenSource Hub  
-- Bio: Advocate for open-source technologies and diversity in tech.  
-- [Learn More](https://johndoe.dev)  
+###  Prof. Szilvia Ruszev  
+- Position: Co-chair of Bournemouth University AI Network
+- [Learn More]()  
 
 ---
 
@@ -43,8 +35,8 @@ Welcome to the official speaker lineup for **Conference 2025**, where industry l
 
 | Speaker                                                                        | Time        |
 |--------------------------------------------------------------------------------|-------------|
-|Xiaosong Yang  - Keynotes                                                       |11:00 - 11:05|   
-|Szilvia Rusev -Keynotes                                                         |11:10 - 11:15| 
+|Prof. Xiaosong Yang                                                             |11:00 - 11:05|   
+|Prof. Szilvia Rusev                                                             |11:10 - 11:15| 
 |Brian Cresswell (Industry professional, wildlife conservation using AI)         |11:20 - 11:55| 
 |Workshop (Kavi+Alex)                                                            |12:00 - 12:55| 
 |--------------------------------------------------------------------------------|-------------|
