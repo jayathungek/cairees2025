@@ -3,7 +3,7 @@
 Welcome to the official speaker lineup for **Conference 2025**, where academics, industry leaders and students share insights, trends, and innovations.  
 
  **Date:** March 13-14, 2025  
- **Location:** San Francisco, CA  
+ **Location:** Bournemouth, UK
 
 ---
 
