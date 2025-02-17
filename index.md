@@ -76,5 +76,5 @@ Welcome to the official speaker lineup for **Conference 2025**, where academics,
 ---
 
 ## Contact  
-For inquiries, reach us at [kjayathunge@bournemouth.ac.uk](mailto:kjayathunge@bournemouth.ac.uk).  
+For inquiries, contact [Kavi](mailto:kjayathunge@bournemouth.ac.uk) or [Alex](msandoval2@bournemouth.ac.uk)  
 ---
