@@ -1,86 +1,173 @@
-
-<link rel="stylesheet" href="style.css">
-
 <div class="container">
 
-# CAIREES 2025
+<div class="header-container">
+<h1>CAIREES</h1>
+<p class=subheading-text>
 
-Welcome to the official speaker lineup for **Conference 2025**, where academics, industry leaders and students share insights, trends, and innovations.  
+**_C_**limate action through **_AI_** for **_R_**esilient manufacturing, **_E_**nergy and **_E_**nvironmental **_S_**ustainability
+</p>
+</div>
 
- **Date:** March 13-14, 2025  
- **Location:** Bournemouth, UK
+<hr>
+<div class="signup-button-content">
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdgp5NyQ5RMeRebmND1OQohKWQW5AQRCo25EijTv8iHNg7IXQ/viewform">
+<div class="signup-button">
+Register Now - Open to All
+</div>
+</a>
+</div>
 
----
+<div class="welcome-container">
+<div class="date">
+<img src="img/date_icon.png" class="welcome-icon"><p class="welcome-date">March 13-14, 2025</p> 
+</div>
+
+<div class="location">
+<img src="img/location_icon.png" class="welcome-icon"><p class="welcome-location">Fusion Building<br>Bournemouth University<br>Fern Barrow, Poole<br>BH2 5BB</p>
+</div>
+
+<a href="https://bournemouth-ac-uk.zoom.us/j/83331305467?pwd=bYWTihegWjUOame58264e7L4NwA78s.1">
+<div class="zoom">
+<img src="img/zoom_icon.png" class="welcome-icon">
+<p class="welcome-zoom">Zoom Link</p>
+</div>
+</a>
+</div>
+
+
+
+<div class="main-content-container">
+<div class="speakers-container">
 
 ##  Keynote Speakers  
 
-### Prof. Xiaosong Yang  
-- Position:   
-- [Learn More]()  
+<table class="speakers">
+  <tr>
+    <td>
+      <img src="img/cairees-icon" alt="Person Image">
+      <div class="name">TBD</div>
+      <div class="position">Position</div>
+    </td>
+    <td>
+      <img src="img/bournemouth_logo.jpg" alt="Person Image">
+      <div class="name">Prof. Szilvia Ruszev</div>
+      <div class="position">Co-chair<br>Bournemouth University AI Network</div>
+    </td>
+    <td>
+      <img src="img/foreign_office_logo.png" alt="Person Image">
+      <div class="name">HM Ambassador Chris Campbell</div>
+      <div class="position">UK Ambassador to Ecuador</div>
+    </td>
+  </tr>
+</table>
 
-###  Prof. Szilvia Ruszev  
-- Position: Co-chair of Bournemouth University AI Network
-- [Learn More]()  
-
----
 
 ##  Featured Speakers  
 
-- **Brian Cresswell** — Managing director at Lotek UK Ltd.
-- **Federico Galvanin** — Professor of Chemical Engineering at University College London
-- **Handel Sandoval** — 
-- **Clarissa Busch** — 
-- **Marco Quaglio** — 
+<table class="speakers">
+  <tr>
+    <td>
+      <img src="img/lotek_logo.jpg" alt="Person Image">
+      <div class="name">Brian Cresswell</div>
+      <div class="position">Managing director<br>Lotek UK Ltd.</div>
+    </td>
+    <td>
+      <img src="img/UCL_logo.png" alt="Person Image">
+      <div class="name">Prof. Federico Galvanin</div>
+      <div class="position">Professor, Chemical Engineering<br>University College London</div>
+    </td>
+    <td>
+      <img src="img/polymodels_logo.jpeg" alt="Person Image">
+      <div class="name">Marco Quaglio</div>
+      <div class="position">Tech lead<br>PolyModels Hub Ltd.</div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="img/iit_logo.png" alt="Person Image">
+      <div class="name">Prof. Clarissa Busch</div>
+      <div class="position">Professor, Philosophy of AI<br>Illinois Institute of Technology</div>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 
----
+<div class="schedule-container">
 
 ## Schedule at a Glance  
 ### Speakers list - 13th  [In-person/hybrid]
 
-| Speaker                                                                        | Time        |
-|--------------------------------------------------------------------------------|-------------|
-|Prof. Xiaosong Yang                                                             |11:00 - 11:05|   
-|Prof. Szilvia Rusev                                                             |11:10 - 11:15| 
-|Brian Cresswell (Industry professional, wildlife conservation using AI)         |11:20 - 11:55| 
-|Workshop (Kavi+Alex)                                                            |12:00 - 12:55| 
-|--------------------------------------------------------------------------------|-------------|
-|Break/networking/lunch                                                          |13:00 - 13:25|
-|--------------------------------------------------------------------------------|-------------|
-|Chris Campbell - Keynotes (UK ambassador to Ecuador)                            |13:30 - 13:35| 
-|Federico Galvanin (UCL - Professor of Chemical Engineering)                     |13:40 - 14:05|
-|Handel Sandoval (Ecuador Electricity board)                                     |14:10 - 14:35|
-|[ TBD speaker from Ecuador ]                                                    |14:40 - 15:05|
-|--------------------------------------------------------------------------------|-------------|
-|Coffee break                                                                    |15:05 - 15:10|
-|--------------------------------------------------------------------------------|-------------|
-|Marco Quaglio (Industry professional, pharmaceuticals)                          |15:15 - 15:40| 
-|[ TBD speaker from Ecuador ]                                                    |15:45 - 16:05|
-|Clarissa Busch (Prof. of Philosophy of AI, Illinois Inst. of Tech, USA)         |16:10 - 16:35|
-|Final remarks / discussion                                                      |16:35 - 17:00|
-|Networking session                                                              |17:00 - ??   |
+<table class="schedule-hybrid">
+  <thead>
+    <tr>
+      <th>Speaker                         </th> <th>Time          </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>TBD                            </td> <td>11:00 - 11:05</td></tr>
+    <tr><td>Prof. Szilvia Rusev            </td> <td>11:10 - 11:15</td></tr>
+    <tr><td>Brian Cresswell                </td> <td>11:20 - 11:55</td></tr>
+    <tr><td>Workshop                       </td> <td>12:00 - 12:55</td></tr>
+    <tr><td>Break/networking/lunch         </td> <td>13:00 - 13:25</td></tr>
+    <tr><td>HM Ambassador Chris Campbell   </td> <td>13:30 - 13:35</td></tr>
+    <tr><td>Federico Galvanin              </td> <td>13:40 - 14:05</td></tr>
+    <tr><td>Handel Sandoval                </td> <td>14:10 - 14:35</td></tr>
+    <tr><td>[ TBD speaker from Ecuador ]   </td> <td>14:40 - 15:05</td></tr>
+    <tr><td>Coffee break                   </td> <td>15:05 - 15:10</td></tr>
+    <tr><td>Marco Quaglio                  </td> <td>15:15 - 15:40</td></tr>
+    <tr><td>[ TBD speaker from Ecuador ]   </td> <td>15:45 - 16:05</td></tr>
+    <tr><td>Clarissa Busch                 </td> <td>16:10 - 16:35</td></tr>
+    <tr><td>Final remarks / discussion     </td> <td>16:35 - 17:00</td></tr>
+    <tr><td>Networking session             </td> <td>17:00 - ??   </td></tr>
+  </tbody>
+</table>
 
 ### Speakers list - 14th [Online]
 
-| Speaker                                                                        | Time        |
-|--------------------------------------------------------------------------------|-------------|
-|Monterrey - Keynotes                                                            |13:00 - 13:15| 
-|Arizona - Keynotes                                                              |13:20 - 13:35|
-|Armin Sheibanifard                                                              |13:40 - 14:10|
-|NCCA Student [Empty slot]                                                       |14:15 - 14:40|
-|NCCA Student [Empty slot]                                                       |14:45 - 15:15|
-|--------------------------------------------------------------------------------|-------------|
-|Break                                                                           |15:30 - 15:55|
-|--------------------------------------------------------------------------------|-------------|
-|NCCA Student [Empty slot]                                                       |16:00 - 16:25|
-|NCCA Student [Empty slot]                                                       |16:30 - 16:55|
-|NCCA Student [Empty slot]                                                       |17:00 - 17:25|
-|NCCA Student [Empty slot]                                                       |17:30 - 17:55|
+<table class="schedule-online">
+  <thead>
+    <tr>
+      <th>Speaker                        </th> <th>Time          </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Monterrey - Keynotes         </td> <td>13:00 - 13:15</td></tr>
+    <tr><td>Arizona - Keynotes           </td> <td>13:20 - 13:35</td></tr>
+    <tr><td>Armin Sheibanifard           </td> <td>13:40 - 14:10</td></tr>
+    <tr><td>NCCA Student [Empty slot]    </td> <td>14:15 - 14:40</td></tr>
+    <tr><td>NCCA Student [Empty slot]    </td> <td>14:45 - 15:15</td></tr>
+    <tr><td>Break                        </td> <td>15:30 - 15:55</td></tr>
+    <tr><td>NCCA Student [Empty slot]    </td> <td>16:00 - 16:25</td></tr>
+    <tr><td>NCCA Student [Empty slot]    </td> <td>16:30 - 16:55</td></tr>
+    <tr><td>NCCA Student [Empty slot]    </td> <td>17:00 - 17:25</td></tr>
+    <tr><td>NCCA Student [Empty slot]    </td> <td>17:30 - 17:55</td></tr>
+  </tbody>
+</table>
 
 
----
-
-## Contact  
-For inquiries, contact [Kavi](mailto:kjayathunge@bournemouth.ac.uk) or [Alex](msandoval2@bournemouth.ac.uk)  
----
 </div>
+</div>
+
+<div class="sponsor-img-container"><img class="sponsor" src="img/bu_ncca_logo.png"><img class="sponsor" src="img/epn.png"><img class="sponsor" src="img/uide_logo.png"></div>
+
+<hr>
+
+<div class="contact-container">
+<table class="contact">
+  <tr>
+    <td>
+      <div class="text">Contact:</div>
+    </td>
+    <td>
+      <div class="name">Kavi Jayathunge (kjayathunge[at]bournemouth.ac.uk)</div>
+    </td>
+    <td>
+      <div class="name">Maria Alexandra Sandoval (msandoval2[at]bournemouth.ac.uk)</div>
+    </td>
+  </tr>
+</table>
+
+<div>
+</div> 
