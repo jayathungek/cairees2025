@@ -2,6 +2,14 @@
   --primary-color: #062001;
   --secondary-color: #a9d6b2;
   --base-font-size: 1vw;
+  --base-img-size: 3vw;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --base-font-size: 1.5vw
+    --base-img-size: 7vw;
+  }
 }
 
 .welcome-container * {
@@ -58,7 +66,7 @@ body {
 
 .header-container p.subheading-text{
   text-align: center;
-  font-size: 2vw;
+  font-size: calc(var(--base-font-size) * 1.5);
   margin: 0;
   padding: 0;
 }
@@ -68,11 +76,12 @@ body {
   width: 100%;
   align-items: center;
   justify-content: space-around;
+  font-size: calc(var(--base-font-size));
 }
 
 img.welcome-icon {
   display: block;
-  width: 3vw;
+  width: calc(var(--base-img-size) * 1);
   flex: 0;
 }
 
@@ -120,7 +129,7 @@ img.welcome-icon {
 
 
 [class^="welcome-"] {
-  font-size: var(--base-font-size);
+  font-size: calc(var(--base-font-size) * 2);
 }
 
 
@@ -146,8 +155,8 @@ table.speakers .position{
 }
 
 table.speakers img {
-  width: 5vw; /* Adjust as needed */
-  height: 5vw; /* Ensure equal width & height */
+  width: calc(var(--base-img-size) * 5 / 3); /* Adjust as needed */
+  height: calc(var(--base-img-size) * 5 / 3); /* Adjust as needed */
   display: block;
   margin: 0 auto;
   border-radius: 50%; /* Makes the image circular */
@@ -181,7 +190,7 @@ table.speakers img {
 }
 
 img.sponsor {
-  width: 15vw;
+  width: calc(var(--base-img-size) * 5);
   flex: 0;
 }
 
@@ -198,11 +207,11 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 4vw;
+  font-size: calc(var(--base-font-size) * 4);
 }
 
 h2 {
-  font-size: 2vw;
+  font-size:calc(var(--base-font-size) * 2);
 }
 
 
@@ -222,7 +231,7 @@ h2 {
   border-radius: 1vw;       /* Makes it signup */
   border: 0.1vw solid #2980b9; /* Optional border */
   transition: background-color 0.3s; /* Smooth hover effect */
-  font-size: 2vw;          
+  font-size:calc(var(--base-font-size) * 2);          
   font-weight: bold;
   text-align: center;        /* Center text inside */
   text-decoration: none;     /* Removes underline if used with <a> */
@@ -244,4 +253,5 @@ table.contact td {
   padding: 0;
   vertical-align: top; /* Align content to the top */
   text-align: left;
+  font-size: calc(var(--base-font-size) * 1);
 }
