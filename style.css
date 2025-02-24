@@ -1,13 +1,13 @@
 :root {
   --primary-color: #062001;
   --secondary-color: #a9d6b2;
-  --base-font-size: 1vw;
-  --base-img-size: 3vw;
+  --base-font-size: 10pt;
+  --base-img-size: 7vw;
 }
 
 @media (max-width: 768px) {
   :root {
-    --base-font-size: 1.5vw
+    --base-font-size: 5pt 
     --base-img-size: 7vw;
   }
 }
@@ -190,8 +190,9 @@ table.speakers img {
 }
 
 img.sponsor {
-  width: calc(var(--base-img-size) * 5);
-  flex: 0;
+  /* width: calc(var(--base-img-size) * 5); */
+  width: 20%;
+  flex: 1;
 }
 
 .speakers-container {
