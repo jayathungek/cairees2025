@@ -222,6 +222,8 @@ h2 {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center;     /* Center vertically (optional) */
+  gap: 5vw;
+  
 }
 
 .signup-button {
