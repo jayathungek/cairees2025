@@ -43,7 +43,7 @@ body {
   margin: 5px;
   padding: 10px;
   min-height: 1.1vw;
-  gap: 3vh
+  gap: 10px
 }
 
 .container hr {
@@ -193,6 +193,12 @@ table.contact td {
   text-align: left;
   font-size: calc(var(--base-font-size) * 1);
   font-weight: bold;
+}
+
+.spacer {
+    flex-grow: 1; /* Allows it to take up available space */
+    min-height: 10px; /* Ensures it always has at least some spacing */
+    max-height: 100px; /* Prevents it from stretching too much */
 }
 
 /*table.speakers td {*/
