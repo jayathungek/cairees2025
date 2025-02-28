@@ -7,7 +7,7 @@
 
 @media (max-width: 768px) {
   :root {
-    --base-font-size: 0.5vw 
+    --base-font-size: 1vw 
     --base-img-size: 7vw;
   }
 }
@@ -40,9 +40,10 @@ body {
   height: 100%;
   /* position: fixed; */
   background-color: var(--secondary-color); /* Light Blue */
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 10px;
   min-height: 1.1vw;
+  gap: 10px
 }
 
 .container hr {
@@ -121,6 +122,7 @@ img.welcome-icon {
 }
 
 [class^="welcome-"] {
+  /* font-size: calc(var(--base-font-size)); */
   font-size: calc(var(--base-font-size));
 }
 
