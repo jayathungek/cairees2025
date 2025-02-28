@@ -1,13 +1,13 @@
 :root {
   --primary-color: #082258;
-  --secondary-color: rgb(222, 237, 255);
+  --secondary-color: rgb(238, 245, 255);
   --base-font-size: 1vw;
   --base-img-size: 7vw;
 }
 
 @media (max-width: 768px) {
   :root {
-    --base-font-size: 1vw 
+    --base-font-size: 0.5vw 
     --base-img-size: 7vw;
   }
 }
@@ -17,6 +17,7 @@
   /* border: dotted;
   border-width: 1px; */
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -26,17 +27,16 @@ body {
   justify-content: center;
   align-items: flex-start;
   font-family: Arial, sans-serif;
-  font-size: calc(var(--base-font-size) * 1.5);
+  font-size: calc(var(--base-font-size));
   background-color: var(--primary-color);
   box-sizing: border-box;
   overflow-x: hidden;
 }
 
-
 .container {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   height: 100%;
   /* position: fixed; */
   background-color: var(--secondary-color); /* Light Blue */
@@ -76,7 +76,6 @@ body {
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  font-size: calc(var(--base-font-size));
 }
 
 img.welcome-icon {
@@ -97,90 +96,57 @@ img.welcome-icon {
   align-items: center;
 }
 
-
-.zoom {
-    display: flex;
-    align-items: center;
-    gap: 1vw; /* Space between icon and text */
-    padding: 0.5vw 1vw;
-    background-color: var(--primary-color); /* Blue background */
-    color: var(--secondary-color);             /* White text */
-    border-radius: 1vw;       /* Makes it signup */
-    border: 2px solid #2980b9; /* Optional border */
-    transition: background-color 0.3s; /* Smooth hover effect */
-    cursor: pointer;
+.signup-button-content {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically (optional) */
+  gap: 5vw;
+  
 }
 
-.zoom-link-wrapper {
-  display: block;
-  text-decoration: none;
-  color: inherit;
+.signup-button {
+  display: inline-block;     /* Makes the div behave like a button */
+  background-color: var(--primary-color); /* Blue background */
+  color: var(--secondary-color);             /* White text */
+  border-radius: 10px;       /* Makes it signup */
+  transition: background-color 0.3s; /* Smooth hover effect */
+  text-align: center;        /* Center text inside */
+  text-decoration: none;     /* Removes underline if used with <a> */
+  cursor: pointer;
+  align-self: center;
 }
 
-.zoom:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+.signup-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
 }
-
-.welcome-zoom {
-    display: block;
-    margin: 0;
-    padding: 0;
-}
-
 
 [class^="welcome-"] {
-  font-size: calc(var(--base-font-size) * 2);
+  font-size: calc(var(--base-font-size));
 }
-
-
-
-table.speakers {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: center;
-}
-
-table.speakers td {
-  width: 20%;
-  padding: 0;
-  vertical-align: top; /* Align content to the top */
-}
-
-table.speakers .name {
-  font-weight: bold;
-}
-
-table.speakers .position{
-  font-size: calc(var(--base-font-size) *1.5);
-}
-
-table.speakers img {
-  width: calc(var(--base-img-size) * 5 / 3); /* Adjust as needed */
-  height: calc(var(--base-img-size) * 5 / 3); /* Adjust as needed */
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%; /* Makes the image circular */
-  border: 0.3vw solid #ccc; 
-}
-
 
 .schedule-container {
-  justify-self: right;
   width: 100%;
-  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5vw
 }
 
 .schedule-container table {
   width: 100%;
   text-align: left;
+  border: 2px solid black;
+  padding: 5px;
 }
 
 .schedule-container table td:first-child{
   text-align: left;
-  border-bottom: 1px dotted var(--primary-color);
 }
 
-
+.schedule-container table td, th {
+    border: 1px solid black; /* Adds a border to all table cells */
+    padding: 8px; /* Adds some spacing */
+    text-align: left; /* Aligns text to the left */
+}
 
 .sponsor-img-container{
   display: flex;
@@ -192,14 +158,11 @@ table.speakers img {
 img.sponsor {
   /* width: calc(var(--base-img-size) * 5); */
   width: 20%;
-  flex: 1;
 }
 
 .speakers-container {
   vertical-align: top;
   justify-self: left;
-  width: 100%;
-  padding: 1vw;
 }
 
 h1, h2, h3 {
@@ -216,37 +179,6 @@ h2 {
   font-size:calc(var(--base-font-size) * 2);
 }
 
-
-
-
-.signup-button-content {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center;     /* Center vertically (optional) */
-  gap: 5vw;
-  
-}
-
-.signup-button {
-  display: inline-block;     /* Makes the div behave like a button */
-  padding: 0.5vw 1vw;       /* Adds spacing inside the button */
-  background-color: var(--primary-color); /* Blue background */
-  color: var(--secondary-color);             /* White text */
-  border-radius: 1vw;       /* Makes it signup */
-  border: 0.1vw solid #2980b9; /* Optional border */
-  transition: background-color 0.3s; /* Smooth hover effect */
-  font-size:calc(var(--base-font-size) * 2);          
-  font-weight: bold;
-  text-align: center;        /* Center text inside */
-  text-decoration: none;     /* Removes underline if used with <a> */
-  cursor: pointer;
-  align-self: center;
-}
-
-.signup-button:hover {
-  background-color: #2980b9; /* Darker blue on hover */
-}
-
 table.contact{
   width: 100%;
   border-collapse: collapse;
@@ -260,3 +192,26 @@ table.contact td {
   font-size: calc(var(--base-font-size) * 1);
   font-weight: bold;
 }
+
+/*table.speakers td {*/
+/*  width: 20%;*/
+/*  padding: 0;*/
+/*  vertical-align: top; /* Align content to the top */
+/*}*/
+/**/
+/*table.speakers .name {*/
+/*  font-weight: bold;*/
+/*}*/
+/**/
+/*table.speakers .position{*/
+/*  font-size: calc(var(--base-font-size) *1.5);*/
+/*}*/
+/**/
+/*table.speakers img {*/
+/*  width: calc(var(--base-img-size) * 5 / 3); /* Adjust as needed */
+/*  height: calc(var(--base-img-size) * 5 / 3); /* Adjust as needed */
+/*  display: block;*/
+/*  margin: 0 auto;*/
+/*  border-radius: 50%; /* Makes the image circular */
+/*  border: 0.3vw solid #ccc; */
+/*}*/
